@@ -1,0 +1,72 @@
+/* App.css */
+
+.body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .section-name {
+    margin-bottom: 20px;
+  }
+  
+  .div-name {
+    margin-bottom: 20px;
+  }
+  
+  .app-notes {
+    margin-bottom: 20px;
+  }
+  
+  .edit-note {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .edit-note label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .edit-note input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .edit-note button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-note button:hover {
+    background-color: #0056b3;
+    position: relative;
+   /* ปรับตำแหน่งให้มันขึ้นขึ้นไปด้านบนตามต้องการ */
+    transform: translateY(-5px);
+  }
+  
+  .app-notes .a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+  }
+  .app-notes .b {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .app-notes .a:hover,
+  .app-notes .b:hover {
+    text-decoration: underline;
+  }
+  
